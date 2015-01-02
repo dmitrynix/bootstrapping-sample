@@ -1,11 +1,5 @@
 @import "bootstrap/_variables";
-@import "bootstrap/_mixins";
+@import "bootstrap/mixins/_alerts";
+@import "bootstrap/_alerts";
 @import "bootstrap/_normalize";
 
-.alert {
-  color: $gray-base;
-  padding: $alert-padding;
-  margin-bottom: $line-height-computed;
-  border: 1px solid transparent;
-  border-radius: $alert-border-radius;
-}
